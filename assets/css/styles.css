@@ -44,39 +44,33 @@ header {
 }
 
 .btn-home {
-    background: url(/assets/img/icon_home.png)no-repeat 50% 0;
     min-height: 43px;
     min-width: 68px;
     margin-top: -5px;
 }
 
 .btn-philo {
-    background: url(/assets/img/icon_philo.png)no-repeat 50% 0;
     min-height: 43px;
     min-width: 68px;
     margin-top: -5px;
 }
 
 .btn-curri {
-    background: url(/assets/img/icon_curri.png)no-repeat 60% 0;
     min-height: 43px;
     min-width: 68px;
     margin-top: -5px;
 }
 .btn-gallery {
-    background: url(/assets/img/icon_gallery.png)no-repeat 50% 0;
     min-height: 43px;
     min-width: 68px;
     margin-top: -5px;
 }
 .btn-faqs {
-    background: url(/assets/img/icon_faqs.png)no-repeat 50% 0;
     min-height: 43px;
     min-width: 68px;
     margin-top: -5px;
 }
 .btn-contact {
-    background: url(/assets/img/icon_contact.png)no-repeat 50% 0;
     min-height: 43px;
     min-width: 68px;
     margin-top: -5px;
@@ -87,7 +81,7 @@ header {
 }
 
 .btn-home:hover{
-    background: url(/assets/img/icon_home2.png)no-repeat 50% 0;
+    background: url('./assets/img/icon_home2.png')no-repeat 50% 0;
 }
 
 .btn-philo:hover {
