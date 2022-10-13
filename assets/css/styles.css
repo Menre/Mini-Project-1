@@ -5,7 +5,7 @@
 }
 
 header {
-    background: url(https://github.com/Menre/Mini-Project-1/blob/master/assets/img/bg-paper.jpg);
+    background: url('./assets/img/bg-paper.jpg');
     width: 100%;
     position: sticky;
     top: 0;
