@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: url(/assets/img/bg-paper.jpg);
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0px 0px 5px 0px rgb(0 0 0 / 75%);
+}
+
+.navbar-links li {
+    list-style-type: none;
+    margin: 5px;
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 5px;
+    color: #4a4a4a;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 0px 25px 0px 25px;
+}
+
+.btn-home {
+    background: url(/assets/img/icon_home.png)no-repeat 50% 0;
+    min-height: 43px;
+    min-width: 68px;
+    margin-top: -5px;
+}
+
+.btn-philo {
+    background: url(/assets/img/icon_philo.png)no-repeat 50% 0;
+    min-height: 43px;
+    min-width: 68px;
+    margin-top: -5px;
+}
+
+.btn-curri {
+    background: url(/assets/img/icon_curri.png)no-repeat 60% 0;
+    min-height: 43px;
+    min-width: 68px;
+    margin-top: -5px;
+}
+.btn-gallery {
+    background: url(/assets/img/icon_gallery.png)no-repeat 50% 0;
+    min-height: 43px;
+    min-width: 68px;
+    margin-top: -5px;
+}
+.btn-faqs {
+    background: url(/assets/img/icon_faqs.png)no-repeat 50% 0;
+    min-height: 43px;
+    min-width: 68px;
+    margin-top: -5px;
+}
+.btn-contact {
+    background: url(/assets/img/icon_contact.png)no-repeat 50% 0;
+    min-height: 43px;
+    min-width: 68px;
+    margin-top: -5px;
+}
+
+.navbar-links a:hover {
+    color: #49beb7;
+}
+
+.btn-home:hover{
+    background: url(/assets/img/icon_home2.png)no-repeat 50% 0;
+}
+
+.btn-philo:hover {
+    background: url(/assets/img/icon_philo2.png)no-repeat 50% 0;
+}
+
+.btn-curri:hover {
+    background: url(/assets/img/icon_curri2.png)no-repeat 60% 0;
+}
+.btn-gallery:hover {
+    background: url(/assets/img/icon_gallery2.png)no-repeat 50% 0;
+}
+.btn-faqs:hover {
+    background: url(/assets/img/icon_faqs2.png)no-repeat 50% 0;
+}
+.btn-contact:hover {
+    background: url(/assets/img/icon_contact2.png)no-repeat 50% 0;
+}
+
+
+.btn-enroll a:hover {
+    color:white;
+}
+
+.btn-enroll {
+    border: 2px solid #4a4a4a;
+    border-radius: 10px;
+    padding: 10px;
+    height: 60px;
+    text-decoration: underline;
+}
+
+.btn-enroll:hover {
+    background-color: #49beb7;
+}
+
+
+main section h1{
+    font-family: 'Anja Eliane accent', sans-serif;
+    text-align: center;
+    padding: 20px 0px 15px 0px;
+    background-color: #FCCF4D;
+    color: #4a4a4a;
+}
+
+
+.home-header img {
+    width: 100%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.home-content {
+    background-color: #fcae66;
+    color: #fff;
+    height: 600px;
+    text-align: center;
+}
+
+.row {
+    align-items: center;
+    justify-content: center;
+}
+
+.learnmore a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 0px;
+    background-color: #bc4061;
+    color: #fff;
+}
+
+.learnmore a:hover {
+    box-shadow: 0 0 1rem rgb(0 0 0 / 60%)
+}
