@@ -5,6 +5,7 @@
 }
 
 header {
+    background: url('../img/bg-paper.jpg');
     width: 100%;
     position: sticky;
     top: 0;
@@ -51,27 +52,32 @@ header {
 }
 
 .btn-philo {
+    background: url('../img/icon_philo.png')no-repeat 50% 0;
     min-height: 43px;
     min-width: 68px;
     margin-top: -5px;
 }
 
 .btn-curri {
+    background: url('../img/icon_curri.png')no-repeat 60% 0;
     min-height: 43px;
     min-width: 68px;
     margin-top: -5px;
 }
 .btn-gallery {
+    background: url('../img/icon_gallery.png')no-repeat 50% 0;
     min-height: 43px;
     min-width: 68px;
     margin-top: -5px;
 }
 .btn-faqs {
+    background: url('../img/icon_faqs.png')no-repeat 50% 0;
     min-height: 43px;
     min-width: 68px;
     margin-top: -5px;
 }
 .btn-contact {
+    background: url('../img/icon_contact.png')no-repeat 50% 0;
     min-height: 43px;
     min-width: 68px;
     margin-top: -5px;
@@ -86,20 +92,20 @@ header {
 }
 
 .btn-philo:hover {
-    background: url(/assets/img/icon_philo2.png)no-repeat 50% 0;
+    background: url('../img/icon_philo2.png')no-repeat 50% 0;
 }
 
 .btn-curri:hover {
-    background: url(/assets/img/icon_curri2.png)no-repeat 60% 0;
+    background: url('../img/icon_curri2.png')no-repeat 60% 0;
 }
 .btn-gallery:hover {
-    background: url(/assets/img/icon_gallery2.png)no-repeat 50% 0;
+    background: url('../img/icon_gallery2.png')no-repeat 50% 0;
 }
 .btn-faqs:hover {
-    background: url(/assets/img/icon_faqs2.png)no-repeat 50% 0;
+    background: url('../img/icon_faqs2.png')no-repeat 50% 0;
 }
 .btn-contact:hover {
-    background: url(/assets/img/icon_contact2.png)no-repeat 50% 0;
+    background: url('../img/icon_contact2.png')no-repeat 50% 0;
 }
 
 
