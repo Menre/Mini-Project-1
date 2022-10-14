@@ -44,6 +44,7 @@ header {
 }
 
 .btn-home {
+    background: url('../assets/img/icon_home.png')no-repeat 50% 0;
     min-height: 43px;
     min-width: 68px;
     margin-top: -5px;
@@ -81,7 +82,7 @@ header {
 }
 
 .btn-home:hover{
-    background: url('./assets/img/icon_home2.png')no-repeat 50% 0;
+    background: url('../assets/img/icon_home2.png')no-repeat 50% 0;
 }
 
 .btn-philo:hover {
@@ -120,7 +121,7 @@ header {
 
 
 main section h1{
-    font-family: 'Anja Eliane accent', sans-serif;
+    font-family: 'Anja Eliane', sans-serif;
     text-align: center;
     padding: 20px 0px 15px 0px;
     background-color: #FCCF4D;
