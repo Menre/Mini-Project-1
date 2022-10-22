@@ -16,6 +16,7 @@ header {
 .navbar-links li {
     list-style-type: none;
     margin: 5px;
+    cursor: pointer;
 }
 
 .navbar-links li a {
@@ -66,7 +67,7 @@ header {
 }
 
 .btn-curri {
-    background: url('../img/icon_curri.png')no-repeat 60% 0;
+    background: url('../img/icon_curri.png')no-repeat 50% 0;
     min-height: 43px;
     min-width: 68px;
     margin-top: -5px;
@@ -103,7 +104,7 @@ header {
 }
 
 .btn-curri:hover {
-    background: url('../img/icon_curri2.png')no-repeat 60% 0;
+    background: url('../img/icon_curri2.png')no-repeat 50% 0;
 }
 .btn-gallery:hover {
     background: url('../img/icon_gallery2.png')no-repeat 50% 0;
@@ -616,8 +617,24 @@ hr {
 }
 
 
-/* ENROLL */
+/* GALLERY */
+.gallery-main h1 {
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #6f6df4 ;
+    border-radius: 10px;
+    background-color: #6f6df4 ;
+    padding: 25px;
+    margin-bottom: 25px;
 
+}
+.gallery-main img {
+    transition: all .2s ease;
+}
+
+.gallery-main img:hover {
+    transform: scale(1.075);
+}
 
 
 @media (max-width: 900px) {
