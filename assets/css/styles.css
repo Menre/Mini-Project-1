@@ -540,7 +540,7 @@ hr {
 
 .form-contact {
     background-color: #ffffff;
-    width: 100%;
+    width: 50%;
     min-width: 420px;
     padding: 35px 50px;
     display: flex;
@@ -618,25 +618,129 @@ hr {
 
 
 /* GALLERY */
+
+
+.gallery-main {
+    padding: 20px;
+    margin-top: 10px;
+    background-color: #ffffff;
+}
+
 .gallery-main h1 {
     text-align: center;
     font-weight: bold;
-    border: 1px solid #6f6df4 ;
+    border: 1px solid #49beb7 ;
     border-radius: 10px;
-    background-color: #6f6df4 ;
+    background-color: #49beb7 ;
     padding: 25px;
-    margin-bottom: 25px;
-
+    flex-wrap: wrap;
+    
 }
 .gallery-main img {
     transition: all .2s ease;
+    height: auto;
+    width: 100%;
 }
 
 .gallery-main img:hover {
     transform: scale(1.075);
 }
 
+/* REGISTRATION */
+.enroll-main {
+    height: 100%;
+    padding: 20px;
+    background: linear-gradient(
+        135deg,
+        #6f6df4,
+        #4c46f5
+    );
+}
 
+.enroll-main img {
+    max-width: 50%;
+    max-height: 50%;
+    margin: auto;
+}
+.form-enroll {
+    background-color: #ffffff;
+    width: 50%;
+    min-width: 420px;
+    padding: 35px 50px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 20px 30px 25px rgba(0,0,0,0.15);
+}
+
+.form-enroll h1 {
+    font-size: 30px;
+    text-align: center;
+    color: #1c093c;
+}
+
+.form-enroll p {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    color: #606060;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.form-enroll form {
+    width: 100%;
+    position: relative;
+    margin: 30px auto 0 auto;
+}
+
+.form-enroll .row {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    grid-gap: 20px 30px;
+    margin-bottom: 20px;
+}
+
+.form-enroll label {
+    color: #1c093c;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+
+.form-enroll textarea, input {
+    width: 100%;
+    font-weight: 400;
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: 1.2px solid #c4cae0;
+    margin-top: 5px;
+}
+
+.form-enroll textarea {
+    resize: none;
+}
+
+.form-enroll textarea:focus, input:focus {
+    outline: none;
+    border-color: #6f6df4;
+}
+
+.enroll-button {
+    border: none;
+    padding: 10px 20px;
+    background: linear-gradient(
+        130deg,
+        #6f6df4,
+        #4c46f5
+    );
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+/* For the Cards */
 @media (max-width: 900px) {
     .services{
       display: flex;

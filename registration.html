@@ -24,9 +24,6 @@
     <!-- fontawesome -->
     <script src="https://kit.fontawesome.com/9d4922aa81.js" crossorigin="anonymous"></script>
 
- 
-                
-
 </head>
 <body>
     <header class="fixed-header">
@@ -74,41 +71,47 @@
             </nav>    
         </div>
     </header>
-    <main class="form-main">
-        <div class="container-fluid form-contact">
-            <h1>SEND US A MESSAGE</h1>
-            <p>Have any questions or inquiries? Drop us a message</p>
-            <form>
-                <div class="row">
-                    <div class="column">
-                        <label for="name">Name</label>
-                        <input type="text" id="name" placeholder="Your name here">
+    <main>
+        <main class="enroll-main">
+            <div class="container-sm form-enroll">
+                <img src="./assets/img/logo-black.png"/>
+                <h1>REGISTRATION FORM</h1>
+                <form>
+                    <div class="row">
+                        <div class="col">
+                            <label for="name">Child's Name</label>
+                            <input type="text" id="firstname" placeholder="First">
+                            <label for="name"></label>
+                            <input type="name" id="lastname" placeholder="Last">
+                            <label for="dob">Date of Birth</label>
+                            <input type="date" id="dob" placeholder="">
+                        </div>
                     </div>
-                    <div class="column">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" placeholder="Your email here">
+                    <div class="row">
+                        <div class="column">
+                            <label for="subject">Parent's Name</label>
+                            <input type="text" id="subject" placeholder="Your subject here">
+                        </div>
+                        <div class="column">
+                            <label for="contact">Contact Number</label>
+                            <input type="tel" id="contact" placeholder="Your phone number here">
+                        </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="column">
-                        <label for="subject">Subject</label>
-                        <input type="text" id="subject" placeholder="Your subject here">
+                    <div class="row">
+                        <div class="column">
+                            <label for="issue">Type your Questions or Inquiries</label>
+                            <textarea id="issue" placeholder="Type your message" rows="3"></textarea>
+                        </div>
                     </div>
-                    <div class="column">
-                        <label for="contact">Contact Number</label>
-                        <input type="tel" id="contact" placeholder="Your phone number here">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="column">
-                        <label for="issue">Type your Questions or Inquiries</label>
-                        <textarea id="issue" placeholder="Type your message" rows="3"></textarea>
-                    </div>
-                </div>
-                <button class="contact-button">Submit</button>
-            </form>
-        </div>
-    </main>
+                    <button class="enroll-button">Submit</button>
+                </form>
+            </div>
+
+
+
+
+
+
     </main>
     <footer class="footnotes">
         <div class="container">
