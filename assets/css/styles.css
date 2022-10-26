@@ -741,6 +741,30 @@ hr {
     border-radius: 10px;
 }
 
+/* FAQS */
+.faqs-main {
+    padding: 20px;
+    margin-top: 10px;
+    background-color: #ffffff;
+}
+
+
+.faqs-main h1 {
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #49beb7 ;
+    border-radius: 10px;
+    background-color: #49beb7 ;
+    padding: 25px;
+    flex-wrap: wrap;
+}
+
+.faqs-content {
+    margin: auto;
+    padding: 25px;
+    max-width: 768px;
+}
+
 /* For the Cards */
 @media (max-width: 900px) {
     .services{
